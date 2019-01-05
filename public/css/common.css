@@ -1,0 +1,89 @@
+header.header {
+    font-size: 24px;
+    color: #fff;
+    background: #9393ff;
+    padding: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.header-title {
+    vertical-align: middle;
+}
+.header .add {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    width: 35px;
+    height: 35px;
+}
+.header .back {
+    cursor: pointer;
+    position: relative;
+    width: 35px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header .add:before {
+    content: ' ';
+    font-size: 50px;
+    position: absolute;
+    right: 3px;
+    width: 30px;
+    top: 16px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.header .back:before {
+    content: '\2190';
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.header .add:after {
+    content: ' ';
+    position: absolute;
+    height: 30px;
+    border: 2px solid #fff;
+    right: 16px;
+    top: 4px;
+    cursor: pointer;
+}
+.error {
+    color: red;
+    font-size: 11px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.inline-element {
+    max-width: 260px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+.form-control {
+    border-radius: 0;
+}
+
+.btn {
+    border-radius: 0;
+}
+.card {
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
